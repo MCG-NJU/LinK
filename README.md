@@ -38,14 +38,14 @@ class="center">
 
 | name | kernel config |NDS | mAP | model |
 |:---:|:---:|:---:|:---:|:---:|
-| LinK | cos:(3x7)^3 | 69.5 | 63.6 | [model]() |
+| LinK | cos:(3x7)^3 | 69.5 | 63.6 | [model](https://drive.google.com/file/d/11aGVrwkAno8baqh9YgPahM6y4iSSl5ik/view?usp=sharing) |
 
 - Test
 
 | name | kernel config |NDS | mAP | model |
 |:---:|:---:|:---:|:---:|:---:|
-| LinK | cos:(3x7)^3 | 71.0 | 66.3 | [model]() |
-| LinK(TTA) | cos:(3x7)^3 | 73.4 | 69.8 | [model]() |
+| LinK | cos:(3x7)^3 | 71.0 | 66.3 | [model](https://drive.google.com/file/d/1I8hr6XLHNAIfL4LIeBn0Co87s_DEO6Oy/view?usp=sharing) |
+| LinK(TTA) | cos:(3x7)^3 | 73.4 | 69.8 | [model](https://drive.google.com/file/d/1I8hr6XLHNAIfL4LIeBn0Co87s_DEO6Oy/view?usp=sharing) |
 
 
 ## Installation
