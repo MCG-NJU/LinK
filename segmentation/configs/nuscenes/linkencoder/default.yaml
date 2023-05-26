@@ -1,0 +1,6 @@
+model:
+  name: linkencoder
+  base_op: cos_x # ['cos_x', 'cos', 'sin']
+  r: 2
+  s: 3
+  groups: 1

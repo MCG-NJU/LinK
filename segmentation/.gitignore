@@ -1,0 +1,13 @@
+.vscode/
+.idea/
+__pycache__/
+build/
+examples/
+data/
+*runs/
+*runs*
+submission/
+*.pyc
+*.egg-info
+*.so
+_debug*

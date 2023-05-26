@@ -1,0 +1,38 @@
+data:
+  num_classes: 17
+  ignore_label: 0
+  ## train 
+  training_size: 28130
+
+train:
+  seed: 1588147245
+  # seed: 42
+  deterministic: False
+
+dataset:
+  name: nuscenes
+  root: data/nuscenes
+  num_points: 80000
+  voxel_size: 0.15
+  ignore_label: 0
+
+num_epochs: 80
+batch_size: 16
+
+criterion:
+  name: lovasz_softmax # cross_entropy
+  ignore_index: 0
+
+
+model:
+  cr: 1.0  
+
+optimizer:
+  name: sgd
+  lr: 2.4e-1
+  weight_decay: 1.0e-4
+  momentum: 0.9
+  nesterov: true
+
+scheduler:
+  name: cosine_warmup

@@ -1,0 +1,38 @@
+data:
+  num_classes: 20
+  ignore_label: 0
+  ## train 
+  training_size: 19132
+  ## train+val
+  # training_size: 23203
+
+train:
+  seed: 1588147245
+  deterministic: False
+
+dataset:
+  name: semantic_kitti
+  root: ./data/SemanticKITTI/dataset/sequences
+  num_points: 80000
+  voxel_size: 0.05
+
+num_epochs: 25
+batch_size: 2
+
+model:
+  cr: 1.0
+
+criterion:
+  name: lovasz_softmax # cross_entropy
+  ignore_index: 0
+  
+
+optimizer:
+  name: sgd
+  lr: 2.4e-1
+  weight_decay: 1.0e-4
+  momentum: 0.9
+  nesterov: true
+
+scheduler:
+  name: cosine_warmup
