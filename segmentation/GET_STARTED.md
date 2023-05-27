@@ -64,5 +64,12 @@ chomod +x evaluation.sh
 ./evaluation.sh
 ```
 
+# Submission
+For submission on SemanticKITTI, add sequence `08` in training set and modify the `training_size` in `configs/semantic_kitti/default.yaml`. After training, run 
 
+```bash
+# modify test.sh accrodingly
+./test.sh
+```
 
+The results will be stored in `submission` folder, validate its format with [https://github.com/PRBonn/semantic-kitti-api/blob/master/validate_submission.py](https://github.com/PRBonn/semantic-kitti-api/blob/master/validate_submission.py). If corretly, compress the zip file to the official website.

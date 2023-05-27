@@ -13,7 +13,7 @@ export NCCL_ASYNC_ERROR_HANDLING=1
 # export NCCL_IB_DISABLE=1
 
 
-ngpus="8"
+ngpus="4"
 vox_sz="0075"
 config="configs/nusc/voxelnet/nusc_centerpoint_voxelnet_${vox_sz}voxel_fix_bn_z_elkv3.py"
 

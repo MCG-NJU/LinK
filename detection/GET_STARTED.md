@@ -114,4 +114,4 @@ For the evaluation with flipping and rotation TTA, we provide a bash script `fus
 
 Config the bash shell accordingly for your use case. The final detection result will be saved to `{work_dir}/flip_rot_fuse/`.
 
-The pretrained models and configurations are in [MODEL ZOO](../../README.md).
+The pretrained models and configurations are in [MODEL ZOO](../README.md).
