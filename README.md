@@ -91,6 +91,8 @@ If you find our work helpful, please consider citing:
 
 ## Contact
 - Tao Lu: taolu@smail.nju.edu.cn
+- Xiang Ding: xding@smail.nju.edu.cn
+- Haisong Liu: liuhs@smail.nju.edu.cn
 
 ## Acknowledgement
 
