@@ -60,8 +60,8 @@ LinK/segmentation/runs/
 Then, run the evaluation shell:
 
 ```bash
-chomod +x evaluation.sh
-./evaluation.sh
+chmod +x evaluate.sh
+./evaluate.sh
 ```
 
 # Submission
